@@ -1,0 +1,6 @@
+---
+- name: Stage Server Provisioning
+  hosts: stage
+  become: true
+  roles:
+    - common
