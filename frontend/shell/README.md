@@ -1,10 +1,3 @@
-# Shell Frontend
+# Shell Microfrontend Host
 
-**Description**: The main microfrontend host application.
-
-- **Framework:** React
-- **Styling:** TailwindCSS
-- **Routing:** React Router
-- **Integration:** Module Federation (Webpack 5)
-
-This application loads and orchestrates microfrontends such as `auth` and `dashboard`.
+This folder is reserved for the Webpack 5 host app using Module Federation. To be configured manually.
