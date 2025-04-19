@@ -1,17 +1,17 @@
 # Auth Service
 
-**Descripción**: Autenticación y gestión de sesiones de usuarios.
+**Description**: Handles user authentication and session management.
 
-- **Lenguaje:** PHP
+- **Language:** PHP
 - **Framework:** Laravel
-- **Protocolo de comunicación:** REST
+- **Communication Protocol:** REST
 
-## Variables de entorno
+## Environment Variables
 - `APP_KEY`
 - `REDIS_HOST`
 - `VAULT_ADDR`
 
-## Comando para correr
+## Run Command
 ```bash
 docker-compose up auth-service
 ```

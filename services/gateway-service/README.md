@@ -1,17 +1,17 @@
 # Gateway Service
 
-**Descripción**: API Gateway que expone una interfaz GraphQL al frontend.
+**Description**: GraphQL API Gateway that exposes a unified interface to the frontend.
 
-- **Lenguaje:** Go
+- **Language:** Go
 - **Framework:** gqlgen
-- **Protocolo de comunicación:** GraphQL
+- **Communication Protocol:** GraphQL
 
-## Variables de entorno
+## Environment Variables
 - `GQL_PORT`
 - `REDIS_HOST`
 - `VAULT_ADDR`
 
-## Comando para correr
+## Run Command
 ```bash
 docker-compose up gateway-service
 ```
